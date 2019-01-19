@@ -1,2 +1,3 @@
 # Stanford-Algorithm-and-Data-Structure
-in Cpp
+
+Coding in C++
