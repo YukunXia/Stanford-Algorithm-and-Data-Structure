@@ -69,7 +69,7 @@ int main(){
 
     counter = CountInversions<int>(list);
 
-    cout << "Number of inversions:" << counter << endl; // Number of inversions = 11
+    cout << "Number of inversions:" << counter << endl; // Number of inversions = 15
 
     return 0;
 
