@@ -1,3 +1,9 @@
 # Stanford-Algorithm-and-Data-Structure
 
-Coding in C++
+Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
+
+---
+
+* Merge Sort (I & II)
+* Counting Inversions
+* Closest Pair
