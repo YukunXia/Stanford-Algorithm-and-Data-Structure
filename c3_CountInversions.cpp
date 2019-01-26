@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <fstream>
+
 using std::vector;
 using std::cout;
 using std::cin;
@@ -7,9 +9,9 @@ using std::sort;
 using std::endl;
 
 template <typename T>
-int CountInversions(vector<T> &list){
+unsigned int CountInversions(vector<T> &list){
 
-    int counter = 0;
+    unsigned int counter = 0;
 
     if (list.size()  ==  1){
     }
@@ -23,8 +25,8 @@ int CountInversions(vector<T> &list){
         int mid = list.size()/2;
         vector<T> left(list.begin(),list.begin()+mid);
         vector<T> right(list.begin()+mid,list.end());
-        counter += CountInversions(left);
-        counter += CountInversions(right);
+        counter += CountInversions<T>(left);
+        counter += CountInversions<T>(right);
 
         // start merging
         int j = 0;
@@ -58,18 +60,27 @@ int CountInversions(vector<T> &list){
 
 int main(){
 
-    vector<int> list = {5,4,1,8,7,2,6,3};
+    // vector<int> list = {5,4,1,8,7,2,6,3};
 
-    for (int i = 0; i < list.size(); ++i){
-        cout << list[i] << " ";
-    } // print the original list : 5,4,1,8,7,2,6,3
-    cout << endl;
+    // for (int i = 0; i < list.size(); ++i){
+    //     cout << list[i] << " ";
+    // } // print the original list : 5,4,1,8,7,2,6,3
+    // cout << endl;
 
-    int counter = 0;
+    // int counter = 0;
 
-    counter = CountInversions<int>(list);
+    // counter = CountInversions<int>(list);
 
-    cout << "Number of inversions:" << counter << endl; // Number of inversions = 15
+    // cout << "Number of inversions:" << counter << endl; // Number of inversions = 15
+
+    // ---------------------- ---------------------- ----------------------
+
+
+    std::ifstream myfile("IntegerArray.txt");
+    std::istream_iterator<int> start(myfile),end;
+    vector<int> number_list(start,end);
+    cout << number_list.size() << endl;
+    cout << "Number of inversions:" << CountInversions<int>(number_list) << endl; // Number of inversions = 2407905288
 
     return 0;
 
