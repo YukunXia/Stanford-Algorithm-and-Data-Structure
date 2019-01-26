@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
+// #include <algorithm>
 
 using std::vector;
 using std::cout;
@@ -9,7 +10,7 @@ using std::sort;
 using std::endl;
 
 template <typename T>
-unsigned int CountInversions(vector<T> &list){
+unsigned int CountInversions(vector<T> list){ //use (vector<T> &list) if sorting is allowed
 
     unsigned int counter = 0;
 
@@ -73,14 +74,20 @@ int main(){
 
     // cout << "Number of inversions:" << counter << endl; // Number of inversions = 15
 
-    // ---------------------- ---------------------- ----------------------
+    // ---------------------- cutting ---------------------- line ----------------------
 
-
+    // read file into vector
     std::ifstream myfile("IntegerArray.txt");
     std::istream_iterator<int> start(myfile),end;
     vector<int> number_list(start,end);
-    cout << number_list.size() << endl;
-    cout << "Number of inversions:" << CountInversions<int>(number_list) << endl; // Number of inversions = 2407905288
+    cout << "Number list size:" << number_list.size() << endl;
+    cout << "Number of inversions:" << CountInversions<int>(number_list) << endl; 
+    // Number of inversions = 2407905288
+
+    // print out the array's head
+    std::copy(number_list.begin(),number_list.begin()+10,\
+              std::ostream_iterator<int>(cout," "));
+    cout << endl;
 
     return 0;
 
