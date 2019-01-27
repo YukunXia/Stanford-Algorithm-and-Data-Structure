@@ -65,21 +65,24 @@ int main(){
 
     std::ifstream myfile("IntegerArray.txt");
     std::istream_iterator<int> file_top(myfile),file_bottom;
-    vector<int> number_list(file_top,file_bottom);
+    vector<int> number_list1(file_top,file_bottom);
+    vector<int> number_list2(number_list1.begin(),number_list1.end());
 
     int N = 999;
 
     Begin = clock();
-    cout << N << "th element is: " << RandomizedSelection1<int>(number_list.begin(),number_list.end(),N) << endl;
+    cout << N << "th element is: " << RandomizedSelection1<int>(number_list1.begin(),number_list1.end(),N) << endl;
     End = clock(); // ~ 3.3ms
     cout << "Time for stable_partition:" << float(End - Begin)/CLOCKS_PER_SEC << endl;
 
+
+
     Begin = clock();
-    cout << N << "th element is: " << RandomizedSelection1<int>(number_list.begin(),number_list.end(),N) << endl;
-    End = clock(); // ~ 30ms
+    cout << N << "th element is: " << RandomizedSelection2<int>(number_list2.begin(),number_list2.end(),N) << endl;
+    End = clock(); // ~ 2.4ms
     cout << "Time for partition:" << float(End - Begin)/CLOCKS_PER_SEC << endl;
 
-    // so stable_partition is faster than partition here!!!
+    // so stable_partition is slower than partition here!!!
 
     return 0;
 
