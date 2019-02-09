@@ -5,6 +5,7 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 ---
 
 * Merge Sort (I & II)
+![image](https://images2017.cnblogs.com/blog/849589/201710/849589-20171015230557043-37375010.gif)
 * Counting Inversions
 * Closest Pair
 * Quick Sort (Easy way & In Place)
