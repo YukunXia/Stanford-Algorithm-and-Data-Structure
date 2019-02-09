@@ -12,3 +12,4 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 * Minimum Cut by Karger Algorithm
 * Distance between Vertices in Graph by BFS
 * DFS for acylic graph
+* Topological Sort
