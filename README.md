@@ -30,6 +30,8 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 
 * Distance between Vertices in Graph by BFS
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif" width="200">
+
 * DFS for acylic graph
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Mi5NJzps--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/q7gskxisynbs3w7m5v5e.gif" width="200">
@@ -37,3 +39,9 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 * Topological Sort
 
 <img src="https://i.ytimg.com/vi/rSCR8r2aNA8/maxresdefault.jpg" width="600">
+
+* Strongly Connected Components
+
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2018/03/ezgif.com-video-to-gif-36.gif" width="400">
+
+<img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2018/03/ezgif.com-video-to-gif-37.gif" width="400">
