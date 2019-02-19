@@ -49,3 +49,5 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 * Dijkstra algorithm
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" width="250">
+
+* Median of Integer Stream
