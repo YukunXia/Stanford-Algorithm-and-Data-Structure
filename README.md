@@ -45,3 +45,7 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 <img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2018/03/ezgif.com-video-to-gif-36.gif" width="400">
 
 <img src="https://www.globalsoftwaresupport.com/wp-content/uploads/2018/03/ezgif.com-video-to-gif-37.gif" width="400">
+
+* Dijkstra algorithm
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" width="250">
