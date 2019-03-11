@@ -51,3 +51,6 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" width="250">
 
 * Median of Integer Stream
+
+* Binary Search Tree
+<img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-insertion-animation.gif" width=300>
