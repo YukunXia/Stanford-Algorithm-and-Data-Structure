@@ -54,3 +54,6 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 
 * Binary Search Tree
 <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-insertion-animation.gif" width=300>
+
+* Sum of completion time (Greedy Algorithm)
+
