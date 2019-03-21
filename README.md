@@ -57,6 +57,9 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 
 * Sum of Completion Time (Greedy Algorithm)
 
-* Mimimum Spanning Tree (Prim)
+* Minimum Spanning Tree (Prim)
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/PrimAlgDemo.gif" width="300">
+
+* Minimum Spanning Tree (Kruskal)
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/MST_kruskal_en.gif" width="300">
 
