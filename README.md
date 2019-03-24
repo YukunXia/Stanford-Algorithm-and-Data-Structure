@@ -63,3 +63,5 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 * Minimum Spanning Tree (Kruskal)
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/MST_kruskal_en.gif" width="300">
 
+* Clustering (disjoint set)
+<img src="https://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/BOOK/BOOK27/IMG1276.GIF" width="400">
