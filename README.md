@@ -65,3 +65,6 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 
 * Clustering (disjoint set)
 <img src="https://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/BOOK/BOOK27/IMG1276.GIF" width="400">
+
+* Huffman Code
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Huffman_huff_demo.gif" width="450">
