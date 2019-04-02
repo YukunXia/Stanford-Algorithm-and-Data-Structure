@@ -68,3 +68,6 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 
 * Huffman Code
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Huffman_huff_demo.gif" width="450">
+
+* Weighted Independent Sets
+
