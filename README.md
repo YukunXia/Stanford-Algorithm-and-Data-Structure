@@ -71,3 +71,5 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 
 * Weighted Independent Sets
 
+* Knapsack Problem (DP)
+<img src="https://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/BOOK/BOOK12/IMG1095.GIF" width="600">
