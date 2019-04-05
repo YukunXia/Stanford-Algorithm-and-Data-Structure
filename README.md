@@ -72,4 +72,7 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 * Weighted Independent Sets
 
 * Knapsack Problem (DP)
-<img src="https://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/BOOK/BOOK12/IMG1095.GIF" width="600">
+<img src="https://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/BOOK/BOOK12/IMG1095.GIF" width="500">
+
+* Sequence Alignment (Smith–Waterman algorithm)
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Smith-Waterman-Algorithm-Example-En.gif" width="300">
