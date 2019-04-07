@@ -76,3 +76,6 @@ Coding in C++ and implementing the algorithms mentioned in Stanford's MOOC.
 
 * Sequence Alignment (Smith–Waterman algorithm)
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Smith-Waterman-Algorithm-Example-En.gif" width="300">
+
+* Optimal Balanced Search Tree (The right tree is better, considering the weights)
+<img src="https://www.radford.edu/~nokie/classes/360/Diagrams/Opt-BST.gif" width="500">
